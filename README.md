@@ -1,17 +1,11 @@
 # Client Technical Engineering - Learn CP4I Site
 
-> https://pages.github.ibm.com/client-technical-engineering/learn-cloudpakintegration-site/
-
 ## Contribute
 
 We are a small team and the site is fairly modular so we can probably just work off master
 to start.
 
-1. Clone the repo:
-
-   ```bash
-    git clone git@github.ibm.com:client-technical-engineering/learn-cloudpakintegration-site.git
-   ```
+1. Clone the repo.
 
 1. Create a directory for your article under
    `/src/pages/{labs | cp4i-guides | cp4a-guides}` use the kebab-case naming convention.
