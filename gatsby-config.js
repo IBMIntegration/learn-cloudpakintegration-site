@@ -5,7 +5,6 @@ module.exports = {
       'Collection of content created and maintained by the IBM Client Technical Engineering Team',
     keywords: 'IBM,CTE,gatsby,theme,carbon',
   },
-  // pathPrefix: '/client-technical-engineering/learn-cloudpakintegration-site/',
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
@@ -23,7 +22,6 @@ module.exports = {
       options: {
         repository: {
           baseUrl: 'https://github.com/IBMIntegration/learn-cloudpakintegration-site',
-          // subDirectory: "/",
           isSearchEnabled: true,
         },
       },

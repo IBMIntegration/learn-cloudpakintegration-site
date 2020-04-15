@@ -2,7 +2,7 @@ import React from 'react'
 import {HomepageBanner, HomepageCallout} from 'gatsby-theme-carbon'
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage'
 import {calloutLink} from './Homepage.module.scss'
-import {StaticQuery} from 'gatsby'
+import {StaticQuery, graphql} from 'gatsby'
 import Carbon from '../../images/carbon.jpg'
 
 // Import site title from gatsby-config to use as header
