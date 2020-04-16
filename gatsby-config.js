@@ -7,6 +7,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-163832562-1',
+        head: true,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'IBM Client Technical Engineering',
