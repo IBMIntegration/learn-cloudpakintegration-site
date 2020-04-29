@@ -16,7 +16,7 @@ hiddenFromSearch: true
     # Open the file for editing
     vi /etc/ssh/sshd_config
 
-    # Add the TCP/33001 SSH port and close TCP/22.
+    # Add the TCP/33001 SSH port and comment out existing config for TCP/22.
     #Port 22
     Port 33001
    ```
@@ -93,6 +93,11 @@ hiddenFromSearch: true
     ./asconfigurator -x "set_user_data;user_name,asp1;transfer_out_bandwidth_flow_target_rate_default,100000"
    ```
 
+   Note: Each of these commands are updating the Aspera XML config file located at
+   `/opt/aspera/etc/aspera.conf`. If you have manually updated any of these settings you
+   check the validity of the file with `/opt/aspera/bin/asuserdata -v`.
+
 The Server is now ready to receive connections from the Client.
 
-export default ({children}) => <div className="accordion-list">{children}</div>
+export default ({children}) => <div className="accordion-list">{children}</div
+>

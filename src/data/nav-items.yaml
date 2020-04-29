@@ -21,10 +21,10 @@
       path: /general-guides/wildcard-ssl-cert-lets-encrypt/wildcard-ssl-cert-lets-encrypt
 - title: Labs
   pages:
+    - title: About Aspera
+      path: /labs/about-aspera/about-aspera
     - title: High Speed File Transfer at the Speed of Business
       path: /labs/high-speed-file-transfer-at-the-speed-of-business/prerequisites
-    - title: Lab Placeholder
-      path: /labs/placeholder/prerequisites
 # - title: Blog
 #   pages:
 #     - title: Blog Placeholder
