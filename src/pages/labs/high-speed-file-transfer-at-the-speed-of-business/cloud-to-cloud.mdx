@@ -15,19 +15,17 @@ tabs:
 
 export const Title = () => <span>High Speed File Transfer at the Speed of Business</span>
 
-<h2 style={{color: 'red'}}>DRAFT</h2>
+## Move Content between Clouds
 
-## Move Content between Two Different Cloud Providers
+Your file is now in the cloud. Dealing with multiple cloud providers is common and moving
+data between them should be easy. In this section you will move your file from IBM Cloud
+Object Storage in Dallas to AWS S3 Storage in Frankfurt.
 
-You now have your data in the cloud. As you know most of the time we are dealing with
-multiple cloud providers, we need to make it easy to move data between them. In this
-section you will move your file from IBM Cloud Object Storage in Dallas to AWS S3 Storage
-in Frankfurt.
+![Overview](./images/aoc-n2n-overview.png)
 
 ## Lets Go
 
-1. Navigate to the `IBM ICOS - Dallas` folder so you can see the file you just sent to the
-   cloud.
+1. Navigate to the `IBM ICOS - Dallas` folder so you can see your custom filename.
 
 1. Select the `split view` button in the toolbar at the top-right of the page to open
    another pane to the right of your existing view.
@@ -42,7 +40,7 @@ in Frankfurt.
    Frankfurt storage in the right pane to initiate a cloud-to-cloud transfer. Once you
    drop your file into the right pane you will be notified that a copy has begun.
 
-   Note: You can hold `alt` when dropping to perform a `move` rather than a `copy`.
+   **Note:** You can hold `alt` when dropping to perform a `move` rather than a `copy`.
 
    ![Copy Files Notification](./images/aoc-n2n-copying-files.png)
 
@@ -54,9 +52,9 @@ in Frankfurt.
 ## Recap
 
 You have now successfully copied your file between clouds from IBM ICOS in Dallas to AWS
-S3 in Frankfurt. Its important to note that Aspera does not modify or store these files in
-any proprietary way. Other services or processes running in the cloud can easily access
-the contents of these buckets.
+S3 in Frankfurt. It is important to note that Aspera does not modify or store these files
+in any proprietary way. Other services or processes running in the cloud can easily access
+the content of these buckets if you allow them.
 
-You have one more section to go. Let's take a look at how you might distribute large
-amounts of data to end-users.
+You have one more section to go. Let's take a look at how you might distribute your file
+to someone else inside or outside of your organisation.

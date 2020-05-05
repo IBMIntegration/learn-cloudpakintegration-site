@@ -3,25 +3,25 @@ title: Prerequisite Accordian Preparing
 hiddenFromSearch: true
 ---
 
-Before you begin working in these environment there are some prerequisite tasks that must
-be completed. Please complete the following prerequisite tasks before moving on with the
-lab.
+Before beginning this lab there are some prerequisite tasks that must be completed to
+ensure you have access to the necessary systems. Please complete the following
+prerequisite tasks before:
 
-### 1. Load the working environment
+#### Load the working environment
 
 In the SkyTap environment select the 'Developer' machine and login as the user `ibmuser`
 with the password `engageibm`.
 
 ![Developer Machine](./images/skytap-select-developer.png)
 
-### 2. Open the lab guide
+#### Open the lab guide
 
 To make copying snippets easier it is recommended to have the lab guide open by selecting
 the `Lab Guide - 5352` bookmark in Firefox.
 
 ![Lab Guide Bookmark](./images/prereq-labguide.png)
 
-### 3. Confirm the Aspera Transfer Cluster in CP4I is running
+#### Confirm the Aspera Transfer Cluster in CP4I is running
 
 1.  Select the `Test Cluster Aspera` bookmark in Firefox. This bookmark queries the
     `/info` api.
@@ -32,57 +32,32 @@ the `Lab Guide - 5352` bookmark in Firefox.
 
     ![Security Warning](./images/prereq-security-warning.png)
 
-1.  Use the saved access key and access key secret credentials. A JSON output indicates
-    the Aspera Transfer Cluster is up and running.
+1.  Use the saved credentials. A JSON output indicates the Aspera Transfer Cluster is up
+    and running.
 
     ![JSON Output](./images/prereq-json-output.png)
 
-### 4. Log in to OpenShift CLI
+#### Log in to Aspera on Cloud
 
-1.  Select the `Dashboards - Red Hat OpenShift Container Platform` bookmark in Firefox.
-
-    ![OCP Dashboard Bookmark](./images/prereq-ocp-dashboard.png)
-
-1.  Select Log in with `htpasswd` and use the `admin` credentials already saved in the
-    browser.
-
-    ![htpasswd](./images/prereq-htpasswd.png)
-
-1.  Select `admin` dropdown from the top-right corner and then the `Copy Login Command`
-    button
-
-    ![Copy Login Command](./images/prereq-copy-login-command.png)
-
-    **Note:** You may be asked to log in again. Use `htpasswd` and the `admin` account
-    again.
-
-1.  Select the `Display Token` hyperlink to revel the API Token information
-
-1.  Copy the content from the Log in with this token codebox
-
-    ![Log in with token](./images/prereq-oc-login-command.png)
-
-1.  Minimise Firefox so you can see the Desktop and double click the Terminal app to open.
-1.  Paste the `oc login` command to log into the OpenShift cluster on the CLI.
-
-    ![OC Login](./images/prereq-oc-log-in.png)
-
-### 5. Log in to Aspera on Cloud
-
-1.  Maximise Firefox again and select the `IBM Aspera on Cloud` bookmark.
+1.  Select the `IBM Aspera on Cloud` bookmark.
 
     ![Aspera on Cloud Bookmark](./images/prereq-aoc-bookmark.png)
 
-1.  Login with your unique IBM ID provided in the event tool, e.g.
+1.  Login with your unique student number assigned to you. This can be found on the same
+    screen that you launched the lab from. Substitute 'XX' below with your assigned
+    student number.
+
     `thinklabs2020+XX@gmail.com`
+
+    The password will be pasted in the class chat.
 
 1.  Select `Files` as your default app if you are prompted.
 
     ![Default App](./images/prereq-default-app.png)
 
 1.  Select the Workspace `lab 5352` from the Workspace switcher on the left of the screen
-    by selecting the default workspace `Aspera Labs`. You will stay in this workspace for
-    this lab.
+    by selecting the name of the current workspace. This is the only workspace you will be
+    using for this lab.
 
     ![Set Workspace](./images/prereq-lab5352.png)
 

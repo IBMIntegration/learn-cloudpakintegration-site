@@ -37,9 +37,9 @@ const FirstLeftText = () => <p>Cloud Pak for Integration</p>
 const FirstRightText = () => (
   <p>
     Guides and assets created by IBM's Tiger and SWAT teams for Cloud Pak for Integration
-    <a className={calloutLink} href="/cp4i-guides">
+    {/* <a className={calloutLink} href="/cp4i-guides">
       Learn more →
-    </a>
+    </a> */}
   </p>
 )
 

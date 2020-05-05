@@ -1,7 +1,7 @@
-import React from "react";
-import Footer from "gatsby-theme-carbon/src/components/Footer";
+import React from 'react'
+import Footer from 'gatsby-theme-carbon/src/components/Footer'
 
-const Content = ({ buildTime }) => (
+const Content = ({buildTime}) => (
   <>
     {/* <p>
       The <code>Content</code> component receives a <code>buildTime</code> prop
@@ -21,13 +21,12 @@ const Content = ({ buildTime }) => (
       </a>
     </p> */}
   </>
-);
+)
 
 const links = {
-  firstCol: [{ href: "https://ibm.com/design", linkText: "Shadowed link" }],
-  secondCol: [{ href: "https://ibm.com/design", linkText: "Shadowed link" }],
-};
+  firstCol: [{href: 'https://www.ibm.com/cloud/paks/', linkText: 'IBM Cloud Paks'}],
+}
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const CustomFooter = () => <Footer links={links} Content={Content} />
 
-export default CustomFooter;
+export default CustomFooter

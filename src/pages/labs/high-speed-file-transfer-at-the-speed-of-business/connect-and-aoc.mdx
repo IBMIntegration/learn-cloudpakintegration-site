@@ -15,19 +15,19 @@ tabs:
 
 export const Title = () => <span>High Speed File Transfer at the Speed of Business</span>
 
-<h2 style={{color: 'red'}}>DRAFT</h2>
-
 ## Downloading from Aspera on Cloud with the Aspera Connect Client
 
-You are now familiar with two methods of initiating an Aspera transfer; using the CLI and
-using the native Aspera Client. Another option is to use the `Aspera Connect` client
-application.
+You are now familiar with two different methods of initiating an Aspera transfer; using
+the CLI and using the native Aspera Client. Another option is to use the `Aspera Connect`
+client application.
 
-Aspera Connect is designed to allow easy FASP uploads and downloads using the browser.
-Lets now use the Aspera Connect Client to download the file that contains the token we
-need for the next section of this lab.
+Aspera Connect is designed to allow simple FASP uploads and downloads using the browser.
+Lets now use the Aspera Connect Client to download the file that contains the token that
+you need for the API in the next section of this lab.
 
-## Access Aspera on Cloud
+![Overview](./images/aoc-download-overview.png)
+
+## Lets Go
 
 1. Navigate back to Aspera on Cloud and ensure you are still logged in
 
@@ -60,14 +60,14 @@ need for the next section of this lab.
 
    ![Focus Connect](./images/aoc-download-connect-toolbar.png)
 
-   Once complete the file `lab5352_secret.txt` will be available in `/home/ibmuser`. You
-   will use this in the next section.
+   Once complete the file `lab5352_secret.txt` will be available locally in
+   `/home/ibmuser`.
 
 ## Recap
 
 Aspera on Cloud makes it easy for you to get access to your files no matter where they are
-located in the world. In this section of the tutorial you used the Aspera Connect Client
-to download a file hosted in AWS S3 Toronto using a browser based client.
+located in the world. In this section you used the Aspera Connect Client to download a
+file hosted in AWS S3 Toronto.
 
-Now you have that token you can go back and use the Aspera API to initiate a remote
-transfer between the Kubernetes environment and Aspera on Cloud.
+Now you have the token you can use the Aspera API to initiate a remote transfer between
+the CP4I OpenShift environment and storage connected to Aspera on Cloud.
