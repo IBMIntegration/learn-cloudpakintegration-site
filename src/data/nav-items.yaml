@@ -19,6 +19,10 @@
       path: /general-guides/ssh-auth-multiple-github-accounts/ssh-auth-multiple-github-accounts
     - title: Let's Encrypt Wildcard Cert
       path: /general-guides/wildcard-ssl-cert-lets-encrypt/wildcard-ssl-cert-lets-encrypt
+- title: Aspera
+  pages:
+    - title: HSTS Minimal Install
+      path: /aspera/minimal-install/minimal-install
 - title: Labs
   pages:
     - title: About Aspera

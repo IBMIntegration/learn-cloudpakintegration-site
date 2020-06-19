@@ -5,8 +5,9 @@
 We are a small team and the site is fairly modular so we can probably just work off master
 to start.
 
-1. Clone the repo.
-
+1. Clone the repo
+1. Run `yarn install`
+1. Run `yarn dev` to start the dev environment. The dev environment can be accessed at `http://localhost:8000`.
 1. Create a directory for your article under
    `/src/pages/{labs | cp4i-guides | cp4a-guides}` use the kebab-case naming convention.
 1. Navigate into the new directory and create the `article-name.mdx` file
